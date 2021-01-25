@@ -1,0 +1,26 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "budget tracker application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koneruteja/Budget-Tracker.git"
+  },
+  "author": "koneru.dharmateja1@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koneruteja/Budget-Tracker/issues"
+  },
+  "homepage": "https://github.com/koneruteja/Budget-Tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "morgan": "^1.10.0"
+  }
+}
